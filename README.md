@@ -5,6 +5,12 @@ Web & Desktop. By using CMFC Milk Admin, you can manage cooperative members, tra
 record daily milk production, handle sales transactions, monitor inventory levels, generate
 financial reports, and export data in multiple formats.
 
+## Design Concept
+
+Built from the concept by [Khairuzzaman Konok](https://dribbble.com/khairuzzaman-konok) on Dribbble
+
+![Design Concept](https://cdn.dribbble.com/userupload/17172177/file/original-4abde46ed0612a0cea5bb752e19774ce.jpg?resize=1200x853&vertical=center)
+
 ## Desktop Screenshots
 
 ![Dashboard](composeApp/src/commonMain/composeResources/assests/dash.png)
@@ -73,3 +79,4 @@ channel #compose-web. If you face any issues, please report them on GitHub.
 
 You can open the web application by running the `:composeApp:wasmJsBrowserDevelopmentRun` Gradle
 task.
+
