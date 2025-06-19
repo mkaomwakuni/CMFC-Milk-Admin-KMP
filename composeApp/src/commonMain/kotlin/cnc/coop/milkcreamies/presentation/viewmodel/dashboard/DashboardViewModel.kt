@@ -362,7 +362,7 @@ class DashboardViewModel(
 
                 // Generate a timestamped filename
                 val filename = cnc.coop.milkcreamies.util.FileUtil.generateTimestampedFilename(
-                    "chonyi_milk_report", "csv"
+                    "cmfc_milk_report", "csv"
                 )
                 
                 // Export individual reports as well for more specific data
@@ -481,7 +481,7 @@ class DashboardViewModel(
 
                 // Generate a timestamped filename with appropriate extension
                 val filename = cnc.coop.milkcreamies.util.FileUtil.generateTimestampedFilename(
-                    "chonyi_milk_report", format.extension
+                    "cmfc_milk_report", format.extension
                 )
 
                 // For non-CSV formats, we would normally convert the content here

@@ -114,7 +114,7 @@ object CsvExportUtil {
         val date = Clock.System.todayIn(TimeZone.currentSystemDefault())
         val report = StringBuilder()
 
-        report.appendLine("CHONYI MILK COOPERATIVE FARMERS - COMPREHENSIVE REPORT")
+        report.appendLine("CMFC MILK ADMIN - COMPREHENSIVE REPORT")
         report.appendLine("Generated on: $date")
         report.appendLine("=".repeat(50))
         report.appendLine()
@@ -191,7 +191,7 @@ object CsvExportUtil {
         val sb = StringBuilder()
         
         // Add report header
-        sb.append("CHONYI MILK COOPERATIVE FARMERS - COMPREHENSIVE REPORT\n")
+        sb.append("CMFC MILK ADMIN - COMPREHENSIVE REPORT\n")
         sb.append("Generated: ${Clock.System.now().toLocalDateTime(TimeZone.currentSystemDefault())}\n\n")
         
         // Add summary section

@@ -1,4 +1,4 @@
-rootProject.name = "ChonyiMilkCooperativeFarmers"
+rootProject.name = "CMFCMilkAdmin"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

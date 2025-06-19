@@ -565,7 +565,7 @@ fun AboutDialog(onDismiss: () -> Unit) {
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Text(
-                    text = "Chonyi Milk Cooperative Farmers",
+                    text = "CMFC Milk Admin",
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                     textAlign = TextAlign.Center
@@ -596,7 +596,7 @@ fun AboutDialog(onDismiss: () -> Unit) {
                 )
 
                 Text(
-                    text = "The Chonyi Milk Cooperative Farmers application is a comprehensive milk management system designed for dairy cooperatives.",
+                    text = "The CMFC Milk Admin application is a comprehensive milk management system designed for cooperative farmers. It streamlines operations, tracks inventory, and provides detailed analytics for better decision-making.",
                     style = MaterialTheme.typography.bodyMedium,
                     modifier = Modifier.fillMaxWidth(),
                     textAlign = TextAlign.Start
@@ -629,7 +629,7 @@ fun AboutDialog(onDismiss: () -> Unit) {
                 Spacer(modifier = Modifier.height(16.dp))
 
                 Text(
-                    text = "© 2025 Chonyi Milk Cooperative",
+                    text = "© 2025 CMFC Milk Admin",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     modifier = Modifier.fillMaxWidth(),
@@ -757,7 +757,7 @@ fun HelpSupportDialog(onDismiss: () -> Unit) {
                 )
 
                 Text(
-                    text = "Email: support@chonyimilk.co.ke\nPhone: +254 712 345 678\nHours: Mon-Fri, 8AM-5PM EAT",
+                    text = "Email: support@cmfcmilk.co.ke\nPhone: +254 712 345 678\nHours: Mon-Fri, 8AM-5PM EAT",
                     style = MaterialTheme.typography.bodyMedium,
                     modifier = Modifier.fillMaxWidth(),
                     textAlign = TextAlign.Start

@@ -216,7 +216,7 @@ object PdfExportUtil {
         // Add footer with page count
         sb.append("  /F1 10 Tf\n")
         sb.append("  36 30 Td\n")
-        sb.append("  (Chonyi Milk Cooperative Farmers - Page 1) Tj\n")
+        sb.append("  (CMFC Milk Admin - Page 1) Tj\n")
     }
 
     /**

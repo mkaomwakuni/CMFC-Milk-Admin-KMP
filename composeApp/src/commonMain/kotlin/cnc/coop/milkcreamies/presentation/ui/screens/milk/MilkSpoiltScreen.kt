@@ -123,7 +123,6 @@ fun MilkSpoiltScreen() {
                 lossAmount = 1407.00,
                 cause = "Temperature Failure"
             ),
-            MilkSpoilageRequest(
                 amountSpoilt = 8.5,
                 date = LocalDate(2024, 6, 3),
                 lossAmount = 297.50,
@@ -414,7 +413,7 @@ fun SummaryCard(
 }
 
 // Main function for desktop preview
-fun main() = singleWindowApplication(title = "Chonyi Milk Cooperative") {
+fun main() = singleWindowApplication(title = "CMFC Milk Admin") {
     MaterialTheme {
         MilkOutTabsScreen()
     }

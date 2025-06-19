@@ -24,7 +24,7 @@ fun main() = application {
 
     Window(
         onCloseRequest = ::exitApplication,
-        title = "Chonyi Milk Cooperative",
+        title = "CMFC Milk Admin",
 //        state =  rememberWindowState(width = 1480.dp, height = 820.dp),
         undecorated = true,
     ) {

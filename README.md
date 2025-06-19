@@ -1,26 +1,14 @@
-# 🥛 Chonyi Milk Cooperative Management System
+# 🥛CMFC-Milk-Admin-KMP
 
-A comprehensive digital solution for managing milk cooperative operations, built with **Kotlin
+This is a simple desktop application made for managing day-to-day activities in a milk cooperative. 
+It helps track members, livestock, milk production, sales, and financial records,built with **Kotlin
 Multiplatform** and **Compose Multiplatform**. This system streamlines the management of cooperative
 members, livestock, milk production tracking, sales, and financial records.
 
 ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
 ![Compose](https://img.shields.io/badge/Compose%20Multiplatform-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Desktop](https://img.shields.io/badge/Desktop-Windows%20%7C%20macOS%20%7C%20Linux-blue?style=for-the-badge)
 
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Architecture](#-architecture)
-- [Technology Stack](#-technology-stack)
-- [Getting Started](#-getting-started)
-- [Project Structure](#-project-structure)
-- [Key Modules](#-key-modules)
-- [Screenshots](#-screenshots)
-- [API Integration](#-api-integration)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ## ✨ Features
 
@@ -52,7 +40,6 @@ members, livestock, milk production tracking, sales, and financial records.
 
 - **Milk Sales**: Record daily milk sales to customers
 - **Customer Management**: Maintain customer database
-- **Payment Tracking**: Support for cash and M-Pesa payments
 - **Financial Reports**: Comprehensive earnings and expense tracking
 - **Profit Analysis**: Calculate daily, weekly, and monthly profits
 
@@ -62,15 +49,13 @@ members, livestock, milk production tracking, sales, and financial records.
 - **Production Charts**: Visual representation of milk production trends
 - **Member Statistics**: Individual member performance metrics
 - **Export Functionality**: Export data in CSV, Excel, and PDF formats
-- **Historical Data**: Complete audit trail of all operations
 
 ### 🗄️ Archive System
 
 - **Smart Archiving**: Automatic cow dissociation when members are archived
-- **Archive Reasons**: Categorized archiving (suspended, left cooperative, sold, deceased)
+- **Archive Reasons**: Categorized archiving
 - **Archive Viewer**: Dedicated interface to view and filter archived items
 - **Data Preservation**: All historical data remains accessible
-- **Restoration Support**: Architecture supports data restoration if needed
 
 ## 🏗️ Architecture
 
@@ -136,8 +121,8 @@ principles:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/chonyi-milk-cooperative.git
-cd chonyi-milk-cooperative
+git clone https://github.com/mkaomwakuni/CMFC-Milk-Admin-KMP.git
+cd CMFC-Milk-Admin-KMP
 ```
 
 2. **Open in Android Studio**
@@ -146,13 +131,10 @@ cd chonyi-milk-cooperative
     - Ensure all dependencies are downloaded
 
 3. **Configure API Endpoint**
-    - Update `AppConstants.Api.BASE_URL` in the core module
-    - Set your API key in `AppConstants.Api.API_KEY`
+    - Update `AppConstants.BASE_URL` in the core module
 
 4. **Run the Application**
-    - **Android**: Select Android target and run
     - **Desktop**: Select Desktop target and run
-    - **iOS**: (Future support) Select iOS target and run
 
 ### Environment Setup
 
@@ -160,33 +142,8 @@ Create a `local.properties` file in the root directory:
 
 ```properties
 sdk.dir=/path/to/android/sdk
-api.base.url=https://your-api-endpoint.com
-api.key=your-api-key-here
-```
+api.base.url=  http://localhost:8081/
 
-## 📁 Project Structure
-
-```
-composeApp/
-├── src/
-│   ├── commonMain/kotlin/cnc/coop/milkcreamies/
-│   │   ├── 🎨 presentation/          # UI Layer
-│   │   │   ├── ui/screens/          # Screen implementations
-│   │   │   ├── ui/components/       # Reusable UI components
-│   │   │   └── viewmodel/           # ViewModels for each feature
-│   │   ├── 🏢 domain/               # Business Logic Layer
-│   │   │   ├── repository/          # Repository interfaces
-│   │   │   └── usecase/             # Business use cases
-│   │   ├── 🔧 data/                 # Data Layer
-│   │   │   ├── remote/              # API clients
-│   │   │   └── repository/          # Repository implementations
-│   │   ├── 📊 models/               # Data models
-│   │   ├── 🛠️ core/                 # Core utilities
-│   │   ├── 🔌 di/                   # Dependency injection
-│   │   └── 🧭 navigation/           # Navigation logic
-│   ├── androidMain/                 # Android-specific code
-│   ├── desktopMain/                 # Desktop-specific code
-│   └── iosMain/                     # iOS-specific code (future)
 ```
 
 ## 🔧 Key Modules
@@ -228,7 +185,7 @@ composeApp/
 
 ## 📱 Screenshots
 
-*Screenshots will be added here showcasing the key features of the application*
+*Screenshots coming soon*
 
 ### Dashboard
 
@@ -258,7 +215,7 @@ composeApp/
 
 The application integrates with a REST API for data management:
 
-### Key Endpoints
+### Key Endpoints - For CMFCL Server KMP
 
 - `GET /members` - Retrieve all members
 - `POST /members` - Add new member
@@ -299,24 +256,6 @@ We welcome contributions to improve the Milk Cooperative Management System!
    ```
 6. **Open a Pull Request**
 
-### Development Guidelines
-
-- Follow Kotlin coding conventions
-- Write meaningful commit messages
-- Add unit tests for new features
-- Update documentation for API changes
-- Ensure UI consistency with Material Design 3
-
-### Code Style
-
-- Use meaningful variable and function names
-- Comment complex business logic
-- Follow the established architecture patterns
-- Keep functions small and focused
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ```
 Copyright 2025 MkaoCodes
@@ -333,27 +272,3 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ```
-
-## 📞 Support
-
-For support, please open an issue on GitHub or contact the development team.
-
-### Reporting Issues
-
-- Use the GitHub issue tracker
-- Provide detailed reproduction steps
-- Include relevant logs and screenshots
-- Tag issues appropriately
-
-### Feature Requests
-
-- Describe the feature in detail
-- Explain the use case and benefits
-- Consider the impact on existing functionality
-
----
-
-**Built with ❤️ for the Chonyi Milk Cooperative Community**
-
-*This project aims to digitize and streamline milk cooperative operations, making them more
-efficient and transparent for all stakeholders.*
