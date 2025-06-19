@@ -249,7 +249,7 @@ fun TopBar(
                             color = MaterialTheme.colorScheme.onSurface
                         )
                         Text(
-                            text = "USER",
+                            text = "Admin",
                             fontSize = 12.sp,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
