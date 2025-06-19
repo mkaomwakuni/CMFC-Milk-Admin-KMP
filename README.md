@@ -7,16 +7,16 @@ financial reports, and export data in multiple formats.
 
 ## Desktop Screenshots
 
-![Screenshot 1](screenshots/dashboard.png)
-![Screenshot 2](screenshots/members.png)
-![Screenshot 3](screenshots/livestock.png)
-![Screenshot 4](screenshots/milk-collection.png)
-![Screenshot 5](screenshots/sales.png)
-![Screenshot 6](screenshots/inventory.png)
-![Screenshot 7](screenshots/reports.png)
-![Screenshot 8](screenshots/analytics.png)
-![Screenshot 9](screenshots/archive.png)
-![Screenshot 10](screenshots/settings.png)
+![Dashboard](composeApp/src/commonMain/composeResources/assests/dash.png)
+![Milk Entry](composeApp/src/commonMain/composeResources/assests/entry.png)
+![Members](composeApp/src/commonMain/composeResources/assests/memeberentries.png)
+![Cows Management](composeApp/src/commonMain/composeResources/assests/cows.png)
+![Cow Metrics](composeApp/src/commonMain/composeResources/assests/cowmetrics.png)
+![Milk Out Sales](composeApp/src/commonMain/composeResources/assests/milkout.png)
+![Stock Management](composeApp/src/commonMain/composeResources/assests/stock.png)
+![Spoilt Milk](composeApp/src/commonMain/composeResources/assests/spoilt.png)
+![Export Reports](composeApp/src/commonMain/composeResources/assests/export.png)
+![Settings](composeApp/src/commonMain/composeResources/assests/settings.png)
 
 ## Future Plans
 
